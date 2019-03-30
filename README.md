@@ -4,13 +4,13 @@
 
 Integrantes
 
-* Rodrigo Francisco Pablo UNAM
-* Pablo Lobato Ceballos UNAM
-* Emanuel Flores Martínez UNAM
-* Martín Maceda Nazario UNAM
+* <https://github.com/rhofp>
+* [Pablo Lobato Ceballos UNAM](https://github.com/alpercon)
+* [Emanuel Flores Martínez UNAM](https://github.com/emanuelFI)
+* [Martín Maceda Nazario UNAM](https://github.com/martino2197)
 
-* H. Galileo Cabrera Garibaldi UNAM
-* Andrea García Ruíz UNAM
+* [H. Galileo Cabrera Garibaldi UNAM](https://github.com/galigaribaldi)
+* [Andrea García Ruíz UNAM](https://github.com/andreaagr)
 
 ## Git Workflow (flujo de trabajo de git)
 
@@ -22,11 +22,11 @@ La estructura de trabajo propuesta fue inspirada en manera de trabajar de [Wunna
 
 Es **IMPORTANTE**  revisen semanalmente ( o quizá en un periodo menor) el [calendario](./planeacion/README.md) de actividades ya que en este se pondrían fechas de entregables así como los responsables dicho entregables.
 
-### Minutas
+<!--### Minutas-->
 
-Otra parte esencial para el proyecto es informar a los que no pudieron asistir a las juntas lo que se dijo. Para ello se escribirán minutas los más corto posible con los acuerdos a los que se llego ese día en particular.
+<!--Otra parte esencial para el proyecto es informar a los que no pudieron asistir a las juntas lo que se dijo. Para ello se escribirán minutas los más corto posible con los acuerdos a los que se llego ese día en particular.-->
 
-La secuencia para hacer minutas será `Rodrigo, Emanuel, Pablo, Martín.`
+<!--La secuencia para hacer minutas será `Rodrigo, Emanuel, Pablo, Martín.` -->
 
 ### Juntas PRESENCIALES
 

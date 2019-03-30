@@ -21,7 +21,7 @@ En general todo deben tirar *js* enfocado a *react native* solo que algunos de n
 
 ## Entregables para el 5 de abril de 2019
 
-### Pendientes
+### Pendientes de Rodrigo
 
 * Definir un tipo de licencia acorde a nuestro proyecto.
 * Git workflow
