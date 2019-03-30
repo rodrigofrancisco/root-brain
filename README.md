@@ -20,7 +20,7 @@ La estructura de trabajo propuesta fue inspirada en manera de trabajar de [Wunna
 
 ## Roles de los integrantes y calendarización
 
-Es **IMPORTANTE**  revisen semanalmente ( o quizá en un periodo menor) el archivo llamado [calendario.md](./planeacion/calendario.md) ya que en este se pondrían fechas de entregables así como los responsables dicho entregables.
+Es **IMPORTANTE**  revisen semanalmente ( o quizá en un periodo menor) el [calendario](./planeacion/README.md) de actividades ya que en este se pondrían fechas de entregables así como los responsables dicho entregables.
 
 ### Minutas
 
