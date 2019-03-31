@@ -4,7 +4,7 @@
 
 Integrantes
 
-* <https://github.com/rhofp>
+* [Rodrigo Francisco Pablo UNAM](https://github.com/rhofp)
 * [Pablo Lobato Ceballos UNAM](https://github.com/alpercon)
 * [Emanuel Flores Martínez UNAM](https://github.com/emanuelFI)
 * [Martín Maceda Nazario UNAM](https://github.com/martino2197)
@@ -16,11 +16,11 @@ Integrantes
 
 ANTES DE CLONAR ÉSTE REPOSITORIO Y EMPEZAR A CONTRIBUIR EN ÉL FAVOR DE LEER LA ESTRUCTURA DE TRABAJO COLABORATIVO QUE SE PLANEA. La estructura planeada en  [workflow.md](./planeacion/workflow.md) nos ayudará a evitar conflictos entre las versiones de nuestro proyecto. 
 
-La estructura de trabajo propuesta fue inspirada en manera de trabajar de [Wunnar Wolf](https://github.com/gwolf) y del estándar de trabajo generado por desarrolladores de todo el mundo en donde se tienen 4 ramas principales, las cuales se detallan en el documento mencionado previamente.
+La estructura de trabajo propuesta fue inspirada en la manera de trabajar de [Wunnar Wolf](https://github.com/gwolf) y del estándar de trabajo generado por desarrolladores de todo el mundo en donde se tienen 4 ramas principales, las cuales se detallan en el documento mencionado previamente.
 
 ## Roles de los integrantes y calendarización
 
-Es **IMPORTANTE**  revisen semanalmente ( o quizá en un periodo menor) el [calendario](./planeacion/README.md) de actividades ya que en este se pondrían fechas de entregables así como los responsables dicho entregables.
+Es **IMPORTANTE**  que revisen semanalmente ( o quizá en un periodo menor) el [calendario](./planeacion/README.md) de actividades ya que en este se pondrán las fechas de entregables así como los responsables de dichos entregables.
 
 <!--### Minutas-->
 
@@ -30,7 +30,7 @@ Es **IMPORTANTE**  revisen semanalmente ( o quizá en un periodo menor) el [cale
 
 ### Juntas PRESENCIALES
 
-Nos reuniremos TODOS los viernes a las 11:30. Salvo que alguien tenga alguna mejor sugierencia, si es el caso haganmelo saber.
+Nos reuniremos TODOS los viernes a las 11:30. Salvo que alguien tenga alguna mejor sugerencia, si es así haganmelo saber.
 
 ## Tema Salud
 

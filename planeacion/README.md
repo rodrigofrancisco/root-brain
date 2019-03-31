@@ -2,11 +2,11 @@
 
 ## IMPORTANTE
 
-TODOS los ENTREGABLES deben de ser subidos a este repositorio previo a la junta, esto con el fin de checar su avance antes de vernos y agilizar la "revisión". En caso de ser un archivo ejecutable indiquenme que necesito para abrirlo, obviamente si es obvio con que abrirlo pues no tienen que indicarlo.
+TODOS los ENTREGABLES deben de ser subidos a este repositorio previo a la junta, esto con el fin de checar su avance antes de vernos y agilizar la "revisión". En caso de ser un archivo ejecutable indiquenme que necesito para abrirlo, si es obvio con que abrirlo pues no tienen que indicarlo.
 
 ## Roles
 
-Los puede que los roles de cada uno vayan cambiando conforme el proyecto va avanzando pero de manera general se plantea lo siguiente.
+Puede que los roles de cada uno vayan cambiando conforme el proyecto va avanzando pero de manera general se plantea lo siguiente.
 
 En general todo deben tirar *js* enfocado a *react native* solo que algunos de nosotros tendremos roles adicionales.
 
@@ -26,7 +26,7 @@ En general todo deben tirar *js* enfocado a *react native* solo que algunos de n
 * Definir un tipo de licencia acorde a nuestro proyecto.
 * Git workflow
 
-| #    | Actividad                                                    | Integrante       | Dependencias | ¿Donde subirlo entregarlo?                                 |
+| #    | Actividad                                                    | Integrante       | Dependencias | ¿Donde subirlo?                                            |
 | ---- | ------------------------------------------------------------ | ---------------- | ------------ | ---------------------------------------------------------- |
 | 1    | Avance del modelo 3D del cerebro en blender                  | Emanuel          | Ninguna      | Subir su archivo al directorio `modelos_e_ilustraciones`.  |
 | 2    | Reunir información relacionada con las neurociencias. En especial necesitamos saber que función del cuerpo contra cada parte del cerebro. | Martín           | Ninguna      | Subir su archivo al directorio `investigacion`.            |
