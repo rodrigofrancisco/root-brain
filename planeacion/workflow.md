@@ -44,6 +44,8 @@ Siempre que vayan a empezar a trabajar en su copia de repositorio tienen que ase
 $ git remote add --track develop rhofp https://github.com/rhofp/root-brain
 ```
 
+Bueno, eso de ponerle rhofp no es necesariamente así, podrián ponerle `upstream` por convención. Solo tengan cuidado a la hora de hacer el pull.
+
 Y para tener la versión más actual de la rama `develop` de mi repositorio tendrían que tirar el siguiente comando.
 
 ```shell
