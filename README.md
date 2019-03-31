@@ -49,7 +49,7 @@ La aplicación busca que los usuarios se interesen por las neurociencias y por l
 * Recomendaciones para que el usuario cuide su salud de mejor manera.
   * Dichas recomendaciones serán enviadas a través de notificaciones.
 * Retos que permitan estimular y ejercitar sus habilidades cognitivas.
-  * Dichos retos irán a corde a la función o habilidad que alguna parte del cerebro se encargue. Por ejemplo, el lóbulo frontal es el encargado de la memoria, entonces podemos poner un juego en donde el usuario ejericite su memoria (algo así como un memorama o cosas por el estilo).
+  * Dichos retos irán acorde a la función o habilidad que alguna parte del cerebro se encargue. Por ejemplo, el lóbulo frontal es el encargado de la memoria, entonces podemos poner un juego en donde el usuario ejercite su memoria (algo así como un memorama o cosas por el estilo).
   * A medida que vaya ganando los retos se irán desbloqueando nuevos retos.
 
 En la vista principal de nuestra aplicación se muestra el cerebro el 3D, algo similar a la imagen de abajo.
@@ -63,7 +63,7 @@ En la vista principal de nuestra aplicación se muestra el cerebro el 3D, algo s
 
 ### Funcionamiento de la aplicación
 
-Cada parte del cebrero debe responder a un evento al hacer click sobre él. El disparo del evento depende del modo en que estemos. 
+Cada parte del cerebro debe responder a un evento al hacer click sobre él. El disparo del evento depende del modo en que estemos. 
 
 * Si estamos en el *modo reto* y hacemos click en el lóbulo frontal se nos mandará a un reto (o juego) que nos ayude a ejercitar dicha parte del cerebro.
 * Si estamos en *modo informativo* se nos mostrará información sobre alguna parte del cerebro, enfermedades relacionadas con él, etc. 
@@ -72,7 +72,7 @@ Además, se enviarán notificaciones al usuario con recomendaciones para mantene
 
 ## Plataforma
 
-*RootBrain* esta siendo desarrollado actualmente con **React native**, un framework que permite el desarrollo multiplataforma. La aplicación se podrá ejecutar en 
+*RootBrain* está siendo desarrollado actualmente con **React native**, un framework que permite el desarrollo multiplataforma. La aplicación se podrá ejecutar en 
 
 * Android
 * iOS
@@ -86,7 +86,7 @@ A la fecha (*abril de 2019*) este proyecto se realiza con
 
 ## Arquitecturas del software
 
-¿Algunas propuesta sobre el tipo de arquitectura de software o patrón de diseño a implementar?
+¿Algunas propuestas sobre el tipo de arquitectura de software o patrón de diseño a implementar?
 
 ## Licencia
 
