@@ -21,11 +21,6 @@ En general todo deben tirar *js* enfocado a *react native* solo que algunos de n
 
 ## Entregables para el 5 de abril de 2019
 
-### Pendientes de Rodrigo
-
-* Definir un tipo de licencia acorde a nuestro proyecto.
-* Git workflow
-
 | #    | Actividad                                                    | Integrante       | Dependencias | ¿Dónde subirlo?                                            |
 | ---- | ------------------------------------------------------------ | ---------------- | ------------ | ---------------------------------------------------------- |
 | 1    | Avance del modelo 3D del cerebro en blender                  | Emanuel          | Ninguna      | Subir su archivo al directorio `modelos_e_ilustraciones`.  |

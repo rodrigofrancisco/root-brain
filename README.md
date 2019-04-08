@@ -16,7 +16,7 @@ Integrantes
 
 ANTES DE CLONAR ÉSTE REPOSITORIO Y EMPEZAR A CONTRIBUIR EN ÉL FAVOR DE LEER LA ESTRUCTURA DE TRABAJO COLABORATIVO QUE SE PLANEA. La estructura planeada en  [workflow.md](./planeacion/workflow.md) nos ayudará a evitar conflictos entre las versiones de nuestro proyecto. 
 
-La estructura de trabajo propuesta fue inspirada en la manera de trabajar de [Wunnar Wolf](https://github.com/gwolf) y del estándar de trabajo generado por desarrolladores de todo el mundo en donde se tienen 4 ramas principales, las cuales se detallan en el documento mencionado previamente.
+La estructura de trabajo propuesta fue inspirada en la manera de trabajar de [Gunnar Wolf](https://github.com/gwolf) y del estándar de trabajo generado por desarrolladores de todo el mundo en donde se tienen 4 ramas principales, las cuales se detallan en el documento mencionado previamente.
 
 ## Roles de los integrantes y calendarización
 
