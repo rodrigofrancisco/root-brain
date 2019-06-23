@@ -1,36 +1,13 @@
 # RootBrain
 
+```shell
+update-date: Junio 2019
+
+Unity 2018.3.14f1
+Blender 2.79
+```
+
 ## Equipo i35 
-
-Integrantes
-
-* [Rodrigo Francisco Pablo UNAM](https://github.com/rhofp)
-* [Pablo Lobato Ceballos UNAM](https://github.com/alpercon)
-* [Emanuel Flores Martínez UNAM](https://github.com/emanuelFI)
-* [Martín Maceda Nazario UNAM](https://github.com/martino2197)
-
-* [H. Galileo Cabrera Garibaldi UNAM](https://github.com/galigaribaldi)
-* [Andrea García Ruíz UNAM](https://github.com/andreaagr)
-
-## Git Workflow (flujo de trabajo de git)
-
-ANTES DE CLONAR ÉSTE REPOSITORIO Y EMPEZAR A CONTRIBUIR EN ÉL FAVOR DE LEER LA ESTRUCTURA DE TRABAJO COLABORATIVO QUE SE PLANEA. La estructura planeada en  [workflow.md](./planeacion/workflow.md) nos ayudará a evitar conflictos entre las versiones de nuestro proyecto. 
-
-La estructura de trabajo propuesta fue inspirada en la manera de trabajar de [Gunnar Wolf](https://github.com/gwolf) y del estándar de trabajo generado por desarrolladores de todo el mundo en donde se tienen 4 ramas principales, las cuales se detallan en el documento mencionado previamente.
-
-## Roles de los integrantes y calendarización
-
-Es **IMPORTANTE**  que revisen semanalmente ( o quizá en un periodo menor) el [calendario](./planeacion/README.md) de actividades ya que en este se pondrán las fechas de entregables así como los responsables de dichos entregables.
-
-<!--### Minutas-->
-
-<!--Otra parte esencial para el proyecto es informar a los que no pudieron asistir a las juntas lo que se dijo. Para ello se escribirán minutas los más corto posible con los acuerdos a los que se llego ese día en particular.-->
-
-<!--La secuencia para hacer minutas será `Rodrigo, Emanuel, Pablo, Martín.` -->
-
-### Juntas PRESENCIALES
-
-Nos reuniremos TODOS los viernes a las 11:30. Salvo que alguien tenga alguna mejor sugerencia, si es así haganmelo saber.
 
 ## Tema Salud
 
@@ -69,25 +46,3 @@ Cada parte del cerebro debe responder a un evento al hacer click sobre él. El d
 * Si estamos en *modo informativo* se nos mostrará información sobre alguna parte del cerebro, enfermedades relacionadas con él, etc. 
 
 Además, se enviarán notificaciones al usuario con recomendaciones para mantenerse saludable.
-
-## Plataforma
-
-*RootBrain* está siendo desarrollado actualmente con **React native**, un framework que permite el desarrollo multiplataforma. La aplicación se podrá ejecutar en 
-
-* Android
-* iOS
-
-## Tecnologías
-
-A la fecha (*abril de 2019*) este proyecto se realiza con 
-
-* react-native 0.59
-* blender 2.76
-
-## Arquitecturas del software
-
-¿Algunas propuestas sobre el tipo de arquitectura de software o patrón de diseño a implementar?
-
-## Licencia
-
-Por definir.
