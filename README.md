@@ -31,7 +31,7 @@ La aplicación busca que los usuarios se interesen por las neurociencias y por l
 
 En la vista principal de nuestra aplicación se muestra el cerebro el 3D, algo similar a la imagen de abajo.
 
-![animacion tomada de wikipedia](./img/brain_anim.gif)
+![animacion tomada de wikipedia](docs/img/brain_anim.gif)
 
 ### Modos de la aplicación
 
