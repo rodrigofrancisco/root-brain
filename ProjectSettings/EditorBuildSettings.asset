@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LOccipital.unity
     guid: 03af2eb2daef6e3acb42f35beccd9333
+  - enabled: 1
+    path: Assets/Scenes/LOccipitaChido.unity
+    guid: b58fbdcd0e45c2347a4ae734601b94dc
   m_configObjects: {}
