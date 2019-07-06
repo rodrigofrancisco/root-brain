@@ -9,7 +9,6 @@ public class DataController : MonoBehaviour{
     // Start is called before the first frame update
     void Start(){
         DontDestroyOnLoad(gameObject);
-        //SceneManager.LoadScene("Nothing");
     }
 
 }
