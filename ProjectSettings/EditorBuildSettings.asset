@@ -9,9 +9,33 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: 93845b80ff50b4d4db46ed004812cdc4
   - enabled: 1
+    path: Assets/Scenes/Informativo.unity
+    guid: 7e19b07df2eb010469d8e1250b72bc55
+  - enabled: 1
     path: Assets/Scenes/LFrontal.unity
     guid: 7cc6bb49ddcc7c11a80315e09fed94b4
   - enabled: 1
+    path: Assets/Scenes/LOccipital.unity
+    guid: b58fbdcd0e45c2347a4ae734601b94dc
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/0e3d716d0dfad14d4adeec45de3441e7
+    guid: 0e3d716d0dfad14d4adeec45de3441e7
+  - enabled: 1
+    path: Assets/Scenes/LParietal.unity
+    guid: 9792a12198aa0b9588b3a35267ecfaff
+  - enabled: 1
     path: Assets/Scenes/LTemporal.unity
     guid: 03af2eb2daef6e3acb42f35beccd9333
+  - enabled: 1
+    path: Assets/Scenes/LFrontalInf.unity
+    guid: 2974b830fc6d7484ca0789e01617f2d8
+  - enabled: 1
+    path: Assets/Scenes/LOccipitalInf.unity
+    guid: 566b0225565a0cb47928cc56fae2fd57
+  - enabled: 1
+    path: Assets/Scenes/LParietalInf.unity
+    guid: 9b8217debea3881459b9c9c11993f183
+  - enabled: 1
+    path: Assets/Scenes/LTemporalInf.unity
+    guid: d0991d728547a4d43aa69ca2db7a0a0f
   m_configObjects: {}
