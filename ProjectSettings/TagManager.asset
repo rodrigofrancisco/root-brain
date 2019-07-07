@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Gotas
+  - gotas1
+  - gotas2
+  - gotas3
+  - gotas0
   layers:
   - Default
   - TransparentFX

@@ -7,30 +7,63 @@ public class GameController : MonoBehaviour{
 
     public TextMeshPro textQuestion;
     public DataController dataController;
+    private float timer = 0f;
+    private int timer2 = 0;
+    private int temp = 0;
+    private int questionCouter = 0;
+    public GameObject gotaprefab;
 
-    public GameObject[] gotas = new GameObject[3];
-    public GameObject gota; //hola
+    private List<GameObject> _instances = new List<GameObject>();
 
-    // Start is called before the first frame update
     void Start(){
-        //dataController = FindObjectOfType<DataController>();
-        textQuestion.text = dataController.questions[0].questionText;
+        //StartCoroutine(DisplayNextQuestion());
+    }
 
-        Instantiate(gotas[0],new Vector3(-2.52F,4.85F, 0), Quaternion.identity);
+    void Update(){
+        timer += Time.deltaTime;
+        timer2 = (int) timer;
 
-        TextMeshPro gotaAnswerOption = gotas[0].GetComponentInChildren<TextMeshPro>();
-
-        Debug.Log(gotaAnswerOption.text);
-
-        gotaAnswerOption.text = dataController.questions[0].answers[0].answerText; 
-
-        Debug.Log(gotaAnswerOption.text);
-
-        gota.GetComponent<GotaBehavior>().isCorrect = true;
-
-        Debug.Log(gota.GetComponent<GotaBehavior>().isCorrect);
-
+        if (timer2 != 0 && timer2 %3 == 0 && timer2 != temp){
+            temp = timer2;
+            if (questionCouter < dataController.questions.Length){
+                CreateDropsAndQuestion(questionCouter);
+                questionCouter ++;
+            }
+        }
     }
 
 
+    IEnumerator DisplayNextQuestion(){
+        for (int i = 0 ; i < dataController.questions.Length; i++){ //Tantas preguntas como gotas
+            yield return new WaitForSeconds(3);
+            CreateDropsAndQuestion(i);
+        }
+    } 
+
+    void CreateDropsAndQuestion(int index){
+        
+        textQuestion.text = dataController.questions[index].questionText;
+
+        Vector3[] positionGotas= {new Vector3(-2.79F,4.36F, 0),new Vector3(0.13F,4.36F, 0),new Vector3(2.87F,4.36F, 0)};
+
+        for(int i = 0 ; i < 3; i++){ // son máximo 3 gotas
+
+            GameObject instance = Instantiate(gotaprefab);
+
+            instance.gameObject.tag="gotas"+index.ToString();
+
+            instance.GetComponent<GotaBehavior>().answerOpText = dataController.questions[index].answers[i].answerText; 
+
+            instance.GetComponent<GotaBehavior>().isCorrect = dataController.questions[index].answers[i].isCorrect;
+
+            instance.GetComponent<GotaBehavior>().tagName = "gotas"+index.ToString();
+
+            instance.transform.position = positionGotas[i];
+
+            instance.transform.rotation = Quaternion.identity;
+
+            _instances.Add(instance);
+
+        }
+    }
 }

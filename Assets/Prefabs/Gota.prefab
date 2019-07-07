@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 2853534521700758059}
   m_Layer: 0
   m_Name: Gota
-  m_TagString: Gotas
+  m_TagString: gotas1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -349,5 +349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f4eedac940eb7e2f8a4fb1892fa8b0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gotaText: {fileID: 2853534520719280382}
-  answerIndex: 1
+  answerOp: {fileID: 2853534520719280382}
+  answerOpText: 
+  isCorrect: 0
+  tagName: 
