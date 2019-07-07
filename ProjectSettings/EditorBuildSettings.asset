@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/LFrontal.unity
     guid: 7cc6bb49ddcc7c11a80315e09fed94b4
   - enabled: 1
-    path: Assets/Scenes/LOccipital.unity
+    path: Assets/Scenes/LTemporal.unity
     guid: 03af2eb2daef6e3acb42f35beccd9333
   m_configObjects: {}
