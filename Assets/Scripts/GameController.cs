@@ -2,24 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour{
 
     public TextMeshPro textQuestion;
     public DataController dataController;
-    private float timer = 0f;
-    private int timer2 = 0;
-    private int temp = 0;
-    private int questionCouter = 0;
     public GameObject gotaprefab;
+    public GameObject gameOverPanel;
+    public GameObject onStartGamePanel;
+    //private float timer = 0f;
+    //private int timer2 = 0;
+    //private int temp = 0;
+    //private int questionCouter = 0;
+    
 
     private List<GameObject> _instances = new List<GameObject>();
 
     void Start(){
-        //StartCoroutine(DisplayNextQuestion());
+        StartCoroutine(DisplayNextQuestion());
     }
 
-    void Update(){
+/*     void Update(){
         timer += Time.deltaTime;
         timer2 = (int) timer;
 
@@ -30,13 +34,23 @@ public class GameController : MonoBehaviour{
                 questionCouter ++;
             }
         }
-    }
+    } */
 
 
     IEnumerator DisplayNextQuestion(){
-        for (int i = 0 ; i < dataController.questions.Length; i++){ //Tantas preguntas como gotas
+        //Tantas preguntas como grupos de 3 gotas
+        for (int i = 0 ; i < dataController.questions.Length; i++){ 
             yield return new WaitForSeconds(3);
-            CreateDropsAndQuestion(i);
+            onStartGamePanel.SetActive(false);
+            bool p = GameObject.Find("Personaje").GetComponent<PersonajeLife>().isAlive;
+            if(p) CreateDropsAndQuestion(i);
+            else {
+                Debug.Log("ya se murio");
+                for(int j = 0; j< _instances.Count; j++){
+                    Destroy(_instances[j]);
+                }
+                gameOverPanel.SetActive(true);
+            }
         }
     } 
 
@@ -44,7 +58,11 @@ public class GameController : MonoBehaviour{
         
         textQuestion.text = dataController.questions[index].questionText;
 
-        Vector3[] positionGotas= {new Vector3(-2.79F,4.36F, 0),new Vector3(0.13F,4.36F, 0),new Vector3(2.87F,4.36F, 0)};
+        Vector3[] positionGotas= {
+            new Vector3(-2.79F,4.36F, 0),
+            new Vector3(0.13F,4.36F, 0),
+            new Vector3(2.87F,4.36F, 0)
+        };
 
         for(int i = 0 ; i < 3; i++){ // son máximo 3 gotas
 
@@ -52,11 +70,19 @@ public class GameController : MonoBehaviour{
 
             instance.gameObject.tag="gotas"+index.ToString();
 
-            instance.GetComponent<GotaBehavior>().answerOpText = dataController.questions[index].answers[i].answerText; 
+            instance.GetComponent<GotaBehavior>().answerOpText = 
+                dataController.questions[index].answers[i].answerText; 
 
-            instance.GetComponent<GotaBehavior>().isCorrect = dataController.questions[index].answers[i].isCorrect;
+            instance.GetComponent<GotaBehavior>().isCorrect = 
+                dataController.questions[index].answers[i].isCorrect;
 
-            instance.GetComponent<GotaBehavior>().tagName = "gotas"+index.ToString();
+            instance.GetComponent<GotaBehavior>().tagName = 
+                "gotas"+index.ToString();
+
+            instance.GetComponent<GotaBehavior>().maxIndexQuestion = 
+                dataController.questions.Length - 1;
+            
+            instance.GetComponent<GotaBehavior>(). indexQuestion = index;
 
             instance.transform.position = positionGotas[i];
 
