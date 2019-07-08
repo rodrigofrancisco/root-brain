@@ -42,7 +42,6 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.unitypackage
 
 # Crashlytics generated file
 crashlytics-build.properties
@@ -436,7 +435,6 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.unitypackage
 
 # Crashlytics generated file
 crashlytics-build.properties
