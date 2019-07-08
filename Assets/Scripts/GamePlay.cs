@@ -13,6 +13,7 @@ public class GamePlay : MonoBehaviour
     private int numberOfLifes;
     private float secondsDiscover = 0;
     private float timeDiscover = 1f;
+    int selectedPuma = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +32,7 @@ public class GamePlay : MonoBehaviour
         if (isHide)
         {
                 secondsDiscover = 0;
-                int selectedPuma = UnityEngine.Random.Range(0, pumas.Length);
+                selectedPuma = UnityEngine.Random.Range(0, pumas.Length);
                 pumas[selectedPuma].showPuma();
                 changeState();
         }
@@ -40,10 +41,7 @@ public class GamePlay : MonoBehaviour
             secondsDiscover += Time.deltaTime;
             if (secondsDiscover > timeDiscover)
             {
-                for (int i = 0; i < pumas.Length; i++)
-                {
-                    pumas[i].hidePuma();
-                }
+                pumas[selectedPuma].hidePuma();
                 changeState();
             }
         }
