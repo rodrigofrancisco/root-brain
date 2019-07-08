@@ -1,11 +1,17 @@
 # RootBrain
 
 ```shell
-update-date: Junio 2019
+update-date: Julio 2019
 
 Unity 2018.3.14f1
 Blender 2.79
 ```
+
+## ¿Cómo lo uso?
+
+Para ver el código de este repositorio basta con tener instalada la versión 2018.3.14f1 de Unity, la cual esta disponible para los tres sistemas operativos más usados, Linux, Windows y MacOS.
+
+Cualquier problema no dude en contactar con rhodfra@gmail.com
 
 ## Equipo i35 
 
