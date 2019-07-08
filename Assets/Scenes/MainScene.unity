@@ -319,7 +319,6 @@ GameObject:
   m_Component:
   - component: {fileID: 760660487}
   - component: {fileID: 760660489}
-  - component: {fileID: 760660488}
   m_Layer: 0
   m_Name: LobuloParietalTrigger
   m_TagString: Untagged
@@ -341,20 +340,6 @@ Transform:
   m_Father: {fileID: 1796622442}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &760660488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760660486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99de45ea01bd7b04b8d966f346d71ea7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  modelo: {fileID: 1174500942}
-  sceneIndex: 4
 --- !u!65 &760660489
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -643,7 +628,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &990900279
 MonoBehaviour:
   m_ObjectHideFlags: 0
