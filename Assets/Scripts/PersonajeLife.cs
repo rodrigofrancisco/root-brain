@@ -5,4 +5,5 @@ using UnityEngine;
 public class PersonajeLife : MonoBehaviour
 {
     public bool isAlive;
+    public bool gameOver = false;
 }

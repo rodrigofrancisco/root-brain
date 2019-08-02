@@ -20,26 +20,27 @@ public class GotaBehavior : MonoBehaviour{
     void OnCollisionEnter2D(Collision2D col){
         if(col.gameObject.name == "Personaje" || col.gameObject.name == "BoxQuestion"){
             GameObject.Find("Personaje").GetComponent<PersonajeLife>().isAlive= false;
-            Debug.Log("Se murio");
+            DestroyGotasGroup();
+
         }
     }
     
+    void DestroyGotasGroup(){
+        GameObject[] gameObjects = GameObject.FindGameObjectsWithTag (tagName);
+        for(var i = 0 ; i < gameObjects.Length ; i ++)
+            Destroy(gameObjects[i]);  
+    }
+
     void OnMouseDown(){
         if( isCorrect){
-            GameObject[] gameObjects = GameObject.FindGameObjectsWithTag (tagName);
-     
-            for(var i = 0 ; i < gameObjects.Length ; i ++){
-                Destroy(gameObjects[i]);
-            }
-
+            DestroyGotasGroup();
             Text scoreNumber = GameObject.Find("Canvas/ScoreNumber").GetComponent<Text>();
-
             int actualScore = int.Parse(scoreNumber.text);
             int newScore = actualScore +5;
             scoreNumber.text = newScore.ToString(); 
         }
         if(indexQuestion == maxIndexQuestion){
-            Debug.Log("Game is over");
+            GameObject.Find("Personaje").GetComponent<PersonajeLife>().gameOver= true;
         }
     }
 }
